@@ -1,13 +1,13 @@
-# Foobar
+# HackUMass VII | idead
 
-Foobar is a Python library for dealing with word pluralization.
+I dead is a MacOS Application meant to work with a serial device in order to provide a service as a Dead Man's Switch. For the development environment a 
 
 ## Installation
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
+Use the accompanies python script to install idead, it's super easy:
 
 ```bash
-pip install foobar
+/bin/bash ./setup.py
 ```
 
 ## Usage

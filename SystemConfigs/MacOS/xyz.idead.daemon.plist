@@ -4,8 +4,11 @@
 	<dict>
 		<key>Label</key>
 		<string>xyz.idead.daemon</string>
-		<key>Program</key>
-		<string>/Applications/idead.sh</string>
+		<key>ProgramArguments</key>
+        <array>
+            <string>/usr/local/Cellar/python/3.7.0/bin/python3.7</string>
+            <string>$HOME/Applications/idead/idead_file_upload.py</string>
+        </array>
         <key>KeepAlive</key>
         <dict>
             <key>Crashed</key>
