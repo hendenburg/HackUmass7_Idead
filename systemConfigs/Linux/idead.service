@@ -1,0 +1,11 @@
+# Contents of /etc/systemd/system/idead.service
+[Unit]
+Description=Idead Service
+After=network.target
+
+[Service]
+Type=oneshot
+ExecStart=/root/idead.sh
+
+[Install]
+WantedBy=multi-user.target
